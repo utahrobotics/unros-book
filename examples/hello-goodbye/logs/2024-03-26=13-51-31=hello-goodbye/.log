@@ -1,0 +1,7 @@
+[0:0.01 INFO unros_core] Runtime started with pid: 6428
+[0:0.01 DEBUG auxilliary-control] Successfully binded to: 0.0.0.0:51825
+[0:0.01 ERROR panic] The application panicked (crashed).
+	Message:  console subscriber server failed: tonic::transport::Error(Transport, hyper::Error(Listen, Os { code: 10048, kind: AddrInUse, message: "Only one usage of each socket address (protocol/network address/port) is normally permitted." }))
+	Location: C:\Users\shabo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\console-subscriber-0.2.0\src\builder.rs:509
+[0:3.02 INFO unros_core] All nodes have terminated
+[0:3.02 INFO unros_core] Exiting...
